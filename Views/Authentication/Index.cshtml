@@ -1,8 +1,48 @@
-﻿
+﻿@model LoginModel
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Authentication/_Layout.cshtml";
 }
 
-<h1>Index</h1>
+<div id="Container">
 
+    <div id="First">
+
+    </div>
+
+    <div id="Second">
+
+    </div>
+
+    <main>
+        
+        <img src="/Images/doctor.jpg" class="rounded"/>
+
+        <div id="Side">
+            
+            <form style="font-family:'Fira Code'">
+
+                <div class="mb-3">
+                    <div class="input-group mb-3">
+                        <span class="input-group-text bi bi-person-bounding-box" id="basic-addon1"></span>
+                        <input type="text" asp-for="Username" class="form-control" placeholder="Matungwa.Karen">
+                    </div>
+                </div>
+
+                <div class="mb-lg-5">
+                    <div class="input-group">
+                        <span class="input-group-text bi bi-key" id="basic-addon1"></span>
+                        <input type="password" asp-for="Password" class="form-control" placeholder="********">
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary w-100">Login</button>
+
+
+            </form>
+
+        </div>
+
+    </main>
+
+</div>

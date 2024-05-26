@@ -1,0 +1,42 @@
+﻿#Container{
+    background-color:red;
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction:row;
+}
+
+#First {
+    background-color: white;
+    width: 50%;
+    height: 100%
+}
+
+#Second {
+    background-color: #7ebed9;
+    width: 50%;
+    height: 100%
+}
+
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    background-color:white;
+    padding:5px;
+    border-radius:5px;
+    width: 727px;
+    display:flex;
+    flex-direction:row;
+    gap: 5px;
+}
+
+#Side{
+    height: inherit;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    width:100%;
+}
